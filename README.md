@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Student Table</title>
     <style>
         table {
             border-collapse: collapse;
-            width: 300px;
+            width: 50%;
+            margin: 20px;
         }
         th, td {
+            border: 1px solid black;
             padding: 5px;
             text-align: left;
-            border: 1px solid black;
         }
         th {
             background-color: #f2f2f2;
