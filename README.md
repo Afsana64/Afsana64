@@ -1,16 +1,31 @@
-## Hi there 👋
-
-<!--
-**Afsana64/Afsana64** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+            border: 1px solid black;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Student ID</th>
+        </tr>
+        <tr>
+            <td>Your Name</td>
+            <td>1133569</td>
+        </tr>
+    </table>
+</body>
+</html>
