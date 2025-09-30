@@ -25,7 +25,7 @@
             <th>Student ID</th>
         </tr>
         <tr>
-            <td>Afsana(史诗)</td>
+            <tdAfsana </td>
             <td>1133569</td>
         </tr>
     </table>
