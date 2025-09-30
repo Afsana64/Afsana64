@@ -25,7 +25,7 @@
             <th>Student ID</th>
         </tr>
         <tr>
-            <tdAfsana </td>
+            <td>Afsana </td>
             <td>1133569</td>
         </tr>
     </table>
