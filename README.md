@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Table</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 50%;
-            margin: 20px;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 5px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Sample Form</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Student ID</th>
-        </tr>
-        <tr>
-            <td>Afsana </td>
-            <td>1133569</td>
-        </tr>
-    </table>
+    <h2>Sample Form</h2>
+    <form action="#" method="post">
+        <!-- Text inputs with default values -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="John"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value="john@example.com"><br><br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" value="25"><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+
+        <!-- Reset button -->
+        <input type="reset" value="Reset">
+    </form>
 </body>
 </html>
