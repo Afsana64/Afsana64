@@ -1,26 +1,30 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Sample Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 09 - Student Form</title>
 </head>
 <body>
-    <h2>Sample Form</h2>
+    <h2>Student Information Form</h2>
+    
     <form action="#" method="post">
-        <!-- Text inputs with default values -->
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" value="John"><br><br>
-
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" value="john@example.com"><br><br>
-
-        <label for="age">Age:</label>
-        <input type="text" id="age" name="age" value="25"><br><br>
-
-        <!-- Submit button -->
+        <!-- First Name Field -->
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Afsana"><br><br>
+        
+        <!-- Last Name Field -->
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Afreen"><br><br>
+        
+        <!-- Student ID Field -->
+        <label for="studentid">Student ID:</label><br>
+        <input type="text" id="studentid" name="studentid" value="1133569"><br><br>
+        
+        <!-- Submit and Reset Buttons -->
         <input type="submit" value="Submit">
-
-        <!-- Reset button -->
-        <input type="reset" value="Reset">
+        <input type="reset" value="重設">
     </form>
 </body>
 </html>
