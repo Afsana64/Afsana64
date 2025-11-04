@@ -1,30 +1,37 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 09 - Student Form</title>
+  <title>Exercise 11</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    .rectangle {
+      width: 200px;
+      height: 150px;
+      background-color: blue;
+      position: absolute;
+      left: 40%;
+      top: 30%;
+    }
+
+    .circle {
+      width: 150px;
+      height: 150px;
+      background-color: yellow;
+      border: 5px solid red;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      top: 35%;
+    }
+  </style>
 </head>
 <body>
-    <h2>Student Information Form</h2>
-    
-    <form action="#" method="post">
-        <!-- First Name Field -->
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="Afsana"><br><br>
-        
-        <!-- Last Name Field -->
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Afreen"><br><br>
-        
-        <!-- Student ID Field -->
-        <label for="studentid">Student ID:</label><br>
-        <input type="text" id="studentid" name="studentid" value="1133569"><br><br>
-        
-        <!-- Submit and Reset Buttons -->
-        <input type="submit" value="Submit">
-        <input type="reset" value="重設">
-    </form>
+  <div class="rectangle"></div>
+  <div class="circle"></div>
 </body>
 </html>
